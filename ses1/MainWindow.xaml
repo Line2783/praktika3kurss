@@ -16,5 +16,7 @@
         <TextBox HorizontalAlignment="Left" Height="28" Margin="346,256,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="178"/>
         <Button Content="Отмена" HorizontalAlignment="Left" Margin="346,350,0,0" VerticalAlignment="Top" Width="88" Height="33" Click="Button_Click" FontSize="18"/>
         <Button Content="Вход" HorizontalAlignment="Left" Margin="481,350,0,0" VerticalAlignment="Top" Width="92" Height="33" FontSize="18"/>
+        <Image Margin="608,0,0,265" Source="Лого ТНС.jpg" Stretch="Fill"/>
+        <Image Margin="532,246,224,135" Source="На авторизацию_Обновление кода.jpg" Stretch="Fill"/>
     </Grid>
 </Window>

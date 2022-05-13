@@ -101,5 +101,11 @@
   <ItemGroup>
     <None Include="Resources\Лого ТНС.jpg" />
   </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Лого ТНС.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="На авторизацию_Обновление кода.jpg" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
