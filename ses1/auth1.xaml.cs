@@ -16,13 +16,13 @@ using System.Windows.Shapes;
 namespace ses1
 {
     /// <summary>
-    /// Логика взаимодействия для MainWindow.xaml
+    /// Логика взаимодействия для auth1.xaml
     /// </summary>
-    public partial class MainWindow : Window
+    public partial class auth1 : Page
     {
-        public MainWindow()
+        public auth1()
         {
-            
+            InitializeComponent();
         }
     }
 }
