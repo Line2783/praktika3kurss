@@ -8,8 +8,8 @@
         Title="MainWindow" Height="450" Width="800">
     <Grid>
         <TextBlock HorizontalAlignment="Left" Margin="44,30,0,0" TextWrapping="Wrap" Text="Телеком Нева Связь" VerticalAlignment="Top" Height="110" Width="412" FontSize="32"/>
-        <Image Source="Лого ТНС.jpg" HorizontalAlignment="Right" Margin="0,0,0,294" Width="381"/>
-        <Frame Name="MainFrame" Source="auth1.xaml" Grid.Row="1" NavigationUIVisibility="Hidden"/>
+        <Frame Name="MainFrame" Source="auth1.xaml" NavigationUIVisibility="Hidden"/>
+        <Image  UseLayoutRounding="True" HorizontalAlignment="Right" Margin="608,0,0,265" Source="Лого ТНС.jpg" Stretch="None" VerticalAlignment="Top"/>
 
     </Grid>
 </Window>
