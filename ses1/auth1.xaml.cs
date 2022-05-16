@@ -24,5 +24,14 @@ namespace ses1
         {
             InitializeComponent();
         }
+
+        private void Button_Click(object sender, RoutedEventArgs e)
+        {
+            if (string.IsNullOrEmpty(login.Text) || string.IsNullOrEmpty(password.Text))
+            {
+                MessageBox.Show("Введите номер и пароль!!!");
+                return;
+            }
+        }
     }
 }
