@@ -9,17 +9,18 @@
       Title="auth1">
 
     <Grid>
-        <Grid Margin="0,0,8,31">
-            <Label Content="Номер" Margin="266,160,0,0" FontSize="16" VerticalAlignment="Top" HorizontalAlignment="Left"/>
-            <Label Content="Пароль" Margin="266,206,0,0" FontSize="16" VerticalAlignment="Top" HorizontalAlignment="Left"/>
-            <TextBox x:Name="login" Height="28" Margin="346,163,0,0" TextWrapping="Wrap" Width="227" VerticalAlignment="Top" HorizontalAlignment="Left"/>
-            <Label Content="Код" Margin="266,253,0,0" FontSize="16" VerticalAlignment="Top" HorizontalAlignment="Left"/>
-            <TextBox x:Name="password" Height="28" Margin="346,209,0,0" TextWrapping="Wrap" Width="227" VerticalAlignment="Top" HorizontalAlignment="Left"/>
-            <TextBox Height="28" Margin="346,256,0,0" TextWrapping="Wrap" Width="178" VerticalAlignment="Top" HorizontalAlignment="Left"/>
-            <Button Content="Отмена" Margin="346,350,0,0" Width="88" Height="33"  FontSize="18" VerticalAlignment="Top" HorizontalAlignment="Left" />
-            <Button Content="Вход" Margin="481,350,0,0" Width="92" Height="33" FontSize="18" VerticalAlignment="Top" HorizontalAlignment="Left" Click="Button_Click"/>
+        <Grid Margin="8,0,0,31">
+            <Label Content="Пароль" Margin="266,206,461,182" FontSize="16" VerticalAlignment="Center" HorizontalAlignment="Center"/>
+            <TextBox x:Name="login" Height="28" Margin="346,168,218,223" TextWrapping="Wrap" Width="227"/>
+            <Label Content="Код" Margin="266,251,489,137" FontSize="16" VerticalAlignment="Center" HorizontalAlignment="Center"  />
+            <TextBox x:Name="password" Height="28" Margin="346,209,218,182" TextWrapping="Wrap" Width="227"/>
+            <TextBox Height="28" Margin="346,254,268,137" TextWrapping="Wrap" Width="178"/>
+            <Button Content="Отмена" Margin="346,350,358,36" Width="88" Height="33"  FontSize="18" />
+            <Button Content="Вход" Margin="489,350,211,36" Width="92" Height="33" FontSize="18" VerticalAlignment="Center" HorizontalAlignment="Center" Click="Button_Click"/>
             <Image Margin="532,246,224,135" Source="На авторизацию_Обновление кода.jpg" UseLayoutRounding="True" MaxWidth="36" MaxHeight="38"/>
-            
+            <Label Content="Логин" Margin="266,165,471,223" FontSize="16" VerticalAlignment="Center" HorizontalAlignment="Center"/>
+            <Grid HorizontalAlignment="Left" Height="215" Margin="266,168,0,0" VerticalAlignment="Top" Width="315"/>
+
         </Grid>
 
     </Grid>

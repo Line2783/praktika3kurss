@@ -32,6 +32,49 @@ namespace ses1
                 MessageBox.Show("Введите номер и пароль!!!");
                 return;
             }
+
+            using (var db = new )
+            {
+                var user = db.User
+                    .AsNotracking()
+                    .FirstOrDefault(using -> u.Login == login.Text && u.password == password.Text)
+                if (user == null)
+                {
+                    MessageBox.Show("Пользователь с такими данными не найден!");
+                    return;
+                }
+                MessageBox.Show(user.Role)
+                    {
+                    case "Руководитель отдела по работе с клиентами":
+                        NavigationService?.Navigate(new Menu());
+                    break;
+
+                    case "Менеджер по работе с клиентами":
+                        NavigationService?.Navigate(new Menu());
+                    break;
+
+                    case "Руководитель отдела технической поддержки":
+                        NavigationService?.Navigate(new Menu());
+                    break;
+
+                    case "Специалист технической поддержки":
+                        NavigationService?.Navigate(new Menu());
+                    break;
+
+                    case "Бухгалтер":
+                        NavigationService?.Navigate(new Menu());
+                    break;
+
+                    case "Директор по развитию":
+                        NavigationService?.Navigate(new Menu());
+                    break;
+
+                    case "Сотрудник технического департамента":
+                        NavigationService?.Navigate(new Menu());
+                    break;
+
+                }
+            }
         }
     }
 }
