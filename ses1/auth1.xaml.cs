@@ -33,17 +33,17 @@ namespace ses1
                 return;
             }
 
-            using (var db = new )
+            using (var db = new Телеком_Нева_СвязьEntities())
             {
                 var user = db.User
-                    .AsNotracking()
-                    .FirstOrDefault(using -> u.Login == login.Text && u.password == password.Text)
+                    .AsNoTracking()
+                    .FirstOrDefault(u => u.Login == login.Text && u.password == password.Text);
                 if (user == null)
                 {
                     MessageBox.Show("Пользователь с такими данными не найден!");
                     return;
                 }
-                MessageBox.Show(user.Role)
+                switch(user.Role)
                     {
                     case "Руководитель отдела по работе с клиентами":
                         NavigationService?.Navigate(new Menu());
