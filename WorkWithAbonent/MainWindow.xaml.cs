@@ -20,11 +20,59 @@ namespace WorkWithAbonent
     /// </summary>
     public partial class MainWindow : Window
     {
-        public MainWindow()
+        public partial class MainWindow : Window
         {
-            InitializeComponent();
-        }
-        private void UsersComboBox_SelectionChanged(object sender, SelectionChangedEventArgs e)
+            List<User> userList = new List<User>();
+
+            public MainWindow()
+            {
+                InitializeComponent();
+                using (var conect = new TeleconNevaEntities())
+                {
+
+                    foreach (var user in userList)
+                    {
+                        UsersComboBox.Items.Add(user.Фамилия);
+                    }
+
+                }
+            }
+
+            private void MainFrame_ContentRendered(object sender, EventArgs e)
+            {
+
+            }
+
+            private void SubsTextBox_MouseDown(object sender, MouseButtonEventArgs e)
+            {
+                HeaderTextBlock.Text = "Абоненты ТНС";
+            }
+
+            private void EquipTextBox_MouseDown(object sender, MouseButtonEventArgs e)
+            {
+                HeaderTextBlock.Text = "Управление оборудованием ТНС";
+            }
+
+            private void AssetsTextBox_MouseDown(object sender, MouseButtonEventArgs e)
+            {
+                HeaderTextBlock.Text = "Активы ТНС";
+            }
+
+            private void BillingTextBox_MouseDown(object sender, MouseButtonEventArgs e)
+            {
+                HeaderTextBlock.Text = "Биллинг ТНС";
+            }
+
+            private void SupprtTextBox_MouseDown(object sender, MouseButtonEventArgs e)
+            {
+                HeaderTextBlock.Text = "Поддержка пользователей ТНС";
+            }
+
+            private void crmTextBox_MouseDown(object sender, MouseButtonEventArgs e)
+            {
+                HeaderTextBlock.Text = "CRM ТНС";
+            }
+            private void UsersComboBox_SelectionChanged(object sender, SelectionChangedEventArgs e)
         {
             switch (userList[UsersComboBox.SelectedIndex].Роль)
             {
