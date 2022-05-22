@@ -5,6 +5,8 @@ VisualStudioVersion = 17.1.32228.430
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TeleconNevaCommunication", "..\..\..\Desktop\Session1\TeleconNevaCommunication\TeleconNevaCommunication.csproj", "{5AEC7B88-F6C4-4903-A628-A45DA05CB762}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WorkWithAbonent", "WorkWithAbonent\WorkWithAbonent.csproj", "{B48ADCAF-001A-406A-8AC5-3D4BCCBDA690}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +17,10 @@ Global
 		{5AEC7B88-F6C4-4903-A628-A45DA05CB762}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{5AEC7B88-F6C4-4903-A628-A45DA05CB762}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{5AEC7B88-F6C4-4903-A628-A45DA05CB762}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B48ADCAF-001A-406A-8AC5-3D4BCCBDA690}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B48ADCAF-001A-406A-8AC5-3D4BCCBDA690}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B48ADCAF-001A-406A-8AC5-3D4BCCBDA690}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B48ADCAF-001A-406A-8AC5-3D4BCCBDA690}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
