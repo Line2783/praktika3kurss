@@ -69,15 +69,5 @@ namespace ses1.Properties {
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
-        
-        /// <summary>
-        ///   Поиск локализованного ресурса типа System.Drawing.Bitmap.
-        /// </summary>
-        internal static System.Drawing.Bitmap На_авторизацию_Обновление_кода {
-            get {
-                object obj = ResourceManager.GetObject("На_авторизацию_Обновление_кода", resourceCulture);
-                return ((System.Drawing.Bitmap)(obj));
-            }
-        }
     }
 }
