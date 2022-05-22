@@ -11,6 +11,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WorkWithNetworkEquipment", 
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ControlStatusa", "F:\шатрик\сессия3\StatusControl\ControlStatusa.csproj", "{7DA74E1F-0939-40DC-9F77-79F496389CBE}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CalculationNumberBaseStation", "F:\шатрик\Session4\CalculationNumberBaseStation\CalculationNumberBaseStation.csproj", "{94CAB2C6-9704-42E6-9070-0E69305348C1}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -33,6 +35,10 @@ Global
 		{7DA74E1F-0939-40DC-9F77-79F496389CBE}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{7DA74E1F-0939-40DC-9F77-79F496389CBE}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{7DA74E1F-0939-40DC-9F77-79F496389CBE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{94CAB2C6-9704-42E6-9070-0E69305348C1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{94CAB2C6-9704-42E6-9070-0E69305348C1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{94CAB2C6-9704-42E6-9070-0E69305348C1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{94CAB2C6-9704-42E6-9070-0E69305348C1}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
