@@ -11,7 +11,7 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ControlStatusa", "F:\шат
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CalculationNumberBaseStation", "F:\шатрик\Session4\CalculationNumberBaseStation\CalculationNumberBaseStation.csproj", "{94CAB2C6-9704-42E6-9070-0E69305348C1}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WorkWithAbonent", "F:\шатрик\Session4\WorkWithSubscribers\WorkWithAbonent.csproj", "{C158A1D3-B8CF-4D5D-AE19-07836FDDCBC0}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WorkWithAbonent", "F:\шатрик\session5\WorkWithSubscribers\WorkWithAbonent.csproj", "{C158A1D3-B8CF-4D5D-AE19-07836FDDCBC0}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
